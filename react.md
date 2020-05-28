@@ -15,3 +15,7 @@ Our initial goals for React will be to learn how components work individually an
 
 ## Components in React
 We will we developing using 'function components'. This is the most modern approach to component development in React. Syntactically, a component is a function that returns a view. These functions roughly qualify as 'pure functions', meaning that provided the same input they will always provide the same output. Components in React who two kinds of 'input' - state and props. State is data that the component owns.  Props are data given to the component from a parent.
+
+### TSX/JSX
+Files are a TypeScipt or JavaScript extended to support HTML syntax embedded
+as a form of object. These file types are used for components. NOTE: In a few places traditional naming conventions for HTML names are changed to avoid naming collisions with JavaScript.  For example, instead of using <div class="class-name">, we must use <div className="class-name"> as 'class' is also a keyword in JavaScript.

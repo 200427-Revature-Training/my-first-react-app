@@ -1,0 +1,20 @@
+#content-component {
+    display: flex;
+}
+
+#inventory-container, #manufacture-container {
+    flex-grow: 1;
+}
+
+#inventory-list {
+    list-style: none;
+    padding: 0;
+}
+
+fieldset {
+    border: none;
+}
+
+input[type="number"] {
+    margin: 5px;
+}
